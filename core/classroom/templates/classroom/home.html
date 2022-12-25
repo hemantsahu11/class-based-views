@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+</head>
+<body>
+    <h1> Welcome to home page </h1>
+    <ul>
+        <li>
+            <a href="{% url 'classroom:thankyou' %}"> Thank you </a>
+        </li>
+        <li>
+            <a href="{% url 'classroom:contact' %}"> Contact Form </a>
+        </li>
+        <li>
+            <a href="{% url 'classroom:create_teacher' %}"> Create Teacher </a>
+        </li>
+        <li>
+            <a href="{% url 'classroom:teacher_list' %}"> List Of Teachers </a>
+        </li>
+    </ul>
+</body>
+</html>
